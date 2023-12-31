@@ -1,2 +1,3 @@
 THis is going to be my first todo app that i will be building indepently with 
-minimal external resources for guild
+minimal external resources for guild.
+will work on the ui then proceed to the functionality of the app
