@@ -1,0 +1,2 @@
+THis is going to be my first todo app that i will be building indepently with 
+minimal external resources for guild
