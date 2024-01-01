@@ -14,3 +14,11 @@ body{
     padding: 20px;
     
 }
+.input-content{
+    width: 100%;
+    max-width: 450px;
+    margin: 5 auto
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
