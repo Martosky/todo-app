@@ -9,20 +9,45 @@ body{
     padding: 20px;
 }
 .main{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     padding: 20px;
     background-color: black;   
+    border-radius: 30px;
 }
 .main h1{
     text-align: center;
     color: white;
+    padding-bottom: 20px;
 }
 .input-content{
    width: 100%;
-   max-width: 450px;
+   max-width: 350px;
    background-color: aliceblue;
    margin: 0 auto;
    display: flex;
    justify-content: space-between;
+   margin-bottom: 20px;
+   border-radius: 20px;
+   
+}
+.input-content > input{
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    padding: 8px;
+    outline: none;
+}
+.input-content > button{
+    width: 90px;
+    border: none;
+    border-radius: 20px;
+    background-color: yellowgreen;
+}
+.output-div{
+
+}
+.output-div ul li{
+    color: white;
+    padding-bottom: 20px ;
 }
