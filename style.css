@@ -43,11 +43,41 @@ body{
     border: none;
     border-radius: 20px;
     background-color: yellowgreen;
+    cursor: pointer;
+    font-size: 16px;
+}
+.input-content > button:hover{
+    background-color: rgb(62, 92, 1);
+    color: white;
 }
 .output-div{
+ width: 100%;
+}
+ ul li{
+    color: white;
+    padding-bottom: 10px ;
+    padding-top: 10px ;
+    list-style-type: none;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
 
 }
-.output-div ul li{
-    color: white;
-    padding-bottom: 20px ;
+ ul li::before{
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    background-image: url(unchecked.png);
+    background-size: cover;
+    background-position: center;
+    left: 8px;
+}
+ ul li.checked{
+   color: rgb(253, 251, 251, 0.4);
+   text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(check.png);
+    
 }
