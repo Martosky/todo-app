@@ -34,5 +34,9 @@ output.addEventListener("click", function(e){
 }, false)
 
 function saveData(){
-    localStorage.setItem("Data", output);
+    localStorage.setItem("data", output.innerHTML);
+};
+function showData(){
+    output.innerHTML = localStorage.setItem("data");
 }
+showData();
