@@ -2,9 +2,9 @@ const input = document.getElementById("input-text");
 const button = document.getElementById("add-btn");
 const output = document.getElementById("output");
 
+button.addEventListener("click", myFunction )
 
-
-const myFunction = () => {
+function myFunction() {
 
     if (input.value === ""){
         alert("Please fill in the input field with a task!");
@@ -18,5 +18,21 @@ const myFunction = () => {
         
     }
     input.value = "";
+    saveData()
 
+};
+output.addEventListener("click", function(e){
+
+    if(e.target.tagName === "LI"){
+        e.target.classList.toggle("checked");
+        saveData()
+    }else if (e.target.tagName === "SPAN"){
+        e.target.parentElement.remove();
+        saveData()
+    }
+    
+}, false)
+
+function saveData(){
+    localStorage.setItem("Data", output);
 }
