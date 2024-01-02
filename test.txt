@@ -5,3 +5,5 @@ I had to redo the ui of my todo app. everything is fine nd wowrking well.
 Next is the funtionality of the app. THis will require some js code
 first i need to target the dom nodes where i will out my code.
 secondly i will have to write a function that will handle the input and display it.
+I added more functionality to my todo app to make it more functional and active.
+I have to add some little more  function to make it more flexible for it user.

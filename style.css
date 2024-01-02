@@ -52,12 +52,11 @@ body{
 }
 .output-div{
  width: 100%;
+ position: relative;
 }
  ul li{
     color: white;
-    padding-bottom: 10px ;
-    padding-top: 10px ;
-    padding-left: 50px;
+    padding: 10px 13px 10px 50px;
     list-style-type: none;
     font-size: 18px;
     position: relative;
@@ -81,4 +80,19 @@ body{
 ul li.checked::before{
     background-image: url(check.png);
     
+}
+span{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    right: 0px;
+    top: 6px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+span:hover{
+    background: rgb(36, 36, 36);
+    border-radius: 50%;
 }
